@@ -1,3 +1,5 @@
-remote_theme: mmistakes/minimal-mistakes
 title: Marine Biology Lab
 description: Exploring Ocean Life
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+plugins:
+  - jekyll-include-cache
