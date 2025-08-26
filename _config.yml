@@ -1,16 +1,18 @@
 title: "Marine Biology Lab"
 description: "Exploring ocean ecosystems and biodiversity"
-url: "https://sarahnanco.github.io"   # replace USERNAME with your GitHub username
-baseurl: "/nancollaslab"   # leave empty if this is username.github.io, otherwise "/repo-name"
+url: "https://sarahnanco.github.io"   # your GitHub Pages base URL
+baseurl: "/nancollaslab"              # repo name since this is NOT username.github.io
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+# Minimal Mistakes requires this plugin for performance caching
 plugins:
   - jekyll-include-cache
 
-# Appearance
+# Appearance (pick from: default, air, contrast, dark, dirt, neon, mint, sunrise)
 minimal_mistakes_skin: "mint"
 
-# Defaults so pages render properly
+# Default settings for pages
 defaults:
   - scope:
       path: ""
@@ -18,3 +20,11 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+# Navigation links
+header_pages:
+  - about.md
+  - research.md
+  - publications.md
+  - team.md
+  - contact.md
