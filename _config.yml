@@ -53,4 +53,4 @@ include:
 
 # Hook custom CSS into the theme
   head_includes:
-  - /nancollaslab/assets/css/custom.css?v=3
+  - /nancollaslab/assets/css/custom.css
