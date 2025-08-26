@@ -10,7 +10,7 @@ plugins:
   - jekyll-include-cache
 
 # Appearance (pick from: default, air, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "mint"
+minimal_mistakes_skin: "aqua"
 
 # Default settings for pages
 defaults:
