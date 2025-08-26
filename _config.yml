@@ -1,6 +1,60 @@
-title: Marine Biology Lab
-description: Exploring Ocean Life
-remote_theme: mmistakes/minimal-mistakes@4.27.3
+# Site settings
+title: "Marine Biology Lab"
+description: "Exploring ocean ecosystems and biodiversity"
+url: "https://username.github.io"   # replace with your GitHub Pages URL
+baseurl: "/repo-name"               # replace with your repo name, or leave "" if using username.github.io
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-include-cache
-minimal_mistakes_skin: aqua
+
+# Appearance (skin options: default, air, contrast, dark, dirt, neon, mint, sunrise)
+minimal_mistakes_skin: "mint"
+
+# Author info (shows in footer and bio sections)
+author:
+  name   : "Dr. Ocean Explorer"
+  avatar : "/assets/images/avatar.jpg"   # optional: place an image in /assets/images/
+  bio    : "We study marine ecosystems and biodiversity, from coral reefs to the deep sea."
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:labemail@university.edu"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/username"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/username"
+
+# Site navigation (links in header)
+# Edit or expand with About, Research, Team, etc.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Navigation menu (uses _data/navigation.yml if you want more control)
+# For now, you can set simple links here
+header_pages:
+  - about.md
+  - research.md
+  - publications.md
+  - team.md
+  - contact.md
+
+# Footer settings
+footer:
+  links:
+    - label: "University of [Your Institution]"
+      url: "https://university.edu"
+    - label: "Contact"
+      url: "/contact/"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
