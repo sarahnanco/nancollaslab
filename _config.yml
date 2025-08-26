@@ -14,9 +14,9 @@ plugins:
   - jekyll-seo-tag
 
 # Appearance (skins: default, air, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "aqua"
+minimal_mistakes_skin: "dark"
 
-# Defaults for pages
+# Defaults (apply to all pages)
 defaults:
   - scope:
       path: ""
@@ -24,6 +24,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      css: "/nancollaslab/assets/css/custom.css?v=1"   # custom CSS for all pages
 
 # Navigation menu (top links)
 header_pages:
