@@ -1,8 +1,8 @@
 # Site settings
 title: "Marine Biology Lab"
 description: "Exploring ocean ecosystems and biodiversity"
-url: "https://username.github.io"   # replace with your GitHub Pages URL
-baseurl: "/repo-name"               # replace with your repo name, or leave "" if using username.github.io
+url: "https://sarahnanco.github.io/"   # replace with your GitHub Pages URL
+baseurl: "/nancollaslab"               # replace with your repo name, or leave "" if using username.github.io
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
