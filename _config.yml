@@ -1,18 +1,22 @@
-title: "Marine Biology Lab"
-description: "Exploring ocean ecosystems and biodiversity"
+# Site settings
+title: "Nancollas Marine Biology Lab"
+description: "Research in coral reef ecology, marine biodiversity, and conservation science."
 url: "https://sarahnanco.github.io"   # your GitHub Pages base URL
 baseurl: "/nancollaslab"              # repo name since this is NOT username.github.io
 
+# Theme
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
-# Minimal Mistakes requires this plugin for performance caching
+# Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Appearance (pick from: default, air, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "aqua"
+# Appearance (skins: default, air, contrast, dark, dirt, neon, mint, sunrise)
+minimal_mistakes_skin: "mint"
 
-# Default settings for pages
+# Defaults for pages
 defaults:
   - scope:
       path: ""
@@ -21,10 +25,23 @@ defaults:
       layout: single
       author_profile: false
 
-# Navigation links
+# Navigation menu (top links)
 header_pages:
   - about.md
   - research.md
   - publications.md
   - team.md
   - contact.md
+
+# Author info (footer + SEO)
+author:
+  name   : "Dr. Sarah Nancollas"
+  avatar : "/nancollaslab/assets/images/avatar.jpg"   # optional
+  bio    : "We study marine ecosystems and biodiversity, from coral reefs to the deep sea."
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:labemail@university.edu"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/sarahnanco"
