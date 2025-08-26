@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"   # 0 = clear, 1 = black overlay
-  overlay_image: /assets/images/ocean.jpg   # put a background photo in /assets/images/
+  overlay_image: /assets/images/ocean.jpeg   # put a background photo in /assets/images/
   actions:
     - label: "Learn More"
       url: "/about/"
