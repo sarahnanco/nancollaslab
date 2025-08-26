@@ -46,3 +46,11 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/sarahnanco"
+
+# Custom includes
+include:
+  - assets/css/custom.css
+
+# Hook custom CSS into the theme
+head_includes:
+  - /nancollaslab/assets/css/custom.css?v=1
