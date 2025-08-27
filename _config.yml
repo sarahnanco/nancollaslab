@@ -14,7 +14,7 @@ plugins:
   - jekyll-seo-tag
 
 # Appearance (skins: default, air, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "aqua"
+minimal_mistakes_skin: "sunrise"
 
 # Defaults (apply to all pages)
 defaults:
