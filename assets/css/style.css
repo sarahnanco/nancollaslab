@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f9fbfd;
+  color: #00334d;
+}
+header, footer {
+  text-align: center;
+}
+a { color: #0077aa; text-decoration: none; }
+a:hover { text-decoration: underline; }
