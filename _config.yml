@@ -1,5 +1,5 @@
 # Site settings
-title: "Nancollas Marine Biology Lab"
+title: "Nancollas Lab"
 description: "Research in coral reef ecology, marine biodiversity, and conservation science."
 url: "https://sarahnanco.github.io"   # your GitHub Pages base URL
 baseurl: "/nancollaslab"              # repo name since this is NOT username.github.io
@@ -14,7 +14,7 @@ plugins:
   - jekyll-seo-tag
 
 # Appearance (skins: default, air, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "aqua"
 
 # Defaults (apply to all pages)
 defaults:
